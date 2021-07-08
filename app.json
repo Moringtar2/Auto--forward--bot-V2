@@ -11,14 +11,14 @@
   ],
   "success_url": "https://t.me/DForDarkAngel",
   "website": "https://github.com/Jijinr/Frwdit",
-  "repository": "https://github.com/Jijinr/Frwdit",
+  "repository": "https://github.com/MRK-YT/MT-Forword",
   "env": {
     "API_ID": {
-      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
       "value": ""
     },
     "BOT_TOKEN": {
@@ -26,11 +26,11 @@
       "value": ""
     },
     "TO_CHANNEL": {
-      "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx",
+      "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx (@MT_ID_BOT)",
       "value": ""
     },
     "FROM_CHANNEL": {
-      "description": "enter Channel username Eg:- @abcdefghijk",
+      "description": "enter Channel username Eg:- @Mo_Tech_YT",
       "value": ""
     },
     "OWNER_ID": {
