@@ -28,9 +28,11 @@ async def start(client, message):
 @Client.on_message(filters.private & filters.command(['help']))
 async def help(client, message):
     buttons = [[
-        InlineKeyboardButton('🏠Home', callback_data='close_btn'),
-        InlineKeyboardButton(''🔐', callback_data='close_btn'),
-        InlineKeyboardButton('🔐', callback_data='close_btn')
+        InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
+        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
+        InlineKeyboardButton('🔐Close', callback_data='close_btn')
+        ],[
+        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://t.me/Mo_Tech_YT/176')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -42,8 +44,11 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('💡 SouceCode', url='https://github.com/Jijinr/Frwdit'),
-        InlineKeyboardButton('close 🔐', callback_data='close_btn')
+        InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
+        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
+        InlineKeyboardButton('🔐Close', callback_data='close_btn')
+        ],[
+        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://t.me/Mo_Tech_YT/176')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
