@@ -12,7 +12,7 @@ Copyright permission under GNU GENERAL PUBLIC LICENSE
 ```
 
 ### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jijinr/Frwdit)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/MT-Forword)
 
 ## HOW TO DEPLOY YOUTUBE TUTORIAL
 
@@ -29,11 +29,11 @@ python3 main.py
 
 ### Variables
 
-* `API_HASH` Your API Hash from my.telegram.org
-* `API_ID` Your API ID from my.telegram.org
+* `API_HASH` Your API Hash from my.telegram.org as @MT_MyTelegramOrg_Bot
+* `API_ID` Your API ID from my.telegram.org as @MT_MyTelegramOrg_Bot
 * `BOT_TOKEN` Your bot token from @BotFather
 * `OWNER_ID` Must enter Your Telegram Id
-* `FROM_CHANNEL` Enter any public channel eg:- @abcdefgh
+* `FROM_CHANNEL` Enter any public channel eg:- @Mo_Tech_YT
 * `TO_CHANNEL` Your Channel ID eg:- -100xxxxxxxx
 * `CAPTION` If you want to add a caption to the forwarded file, enter it here
 * `FILTER_TYPE` Enter Filter type eg:- document or audio or photo or empty
