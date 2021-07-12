@@ -15,7 +15,7 @@ async def start(client, message):
         InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
         InlineKeyboardButton('📃Bot List', url='https://t.me/Mo_Tech_YT/176'),
     ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://t.me/Mo_Tech_YT/176')
+        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -32,7 +32,7 @@ async def help(client, message):
         InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
         InlineKeyboardButton('🔐Close', callback_data='close_btn')
         ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://t.me/Mo_Tech_YT/176')
+        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -48,7 +48,7 @@ async def about(client, message):
         InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
         InlineKeyboardButton('🔐Close', callback_data='close_btn')
         ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://t.me/Mo_Tech_YT/176')
+        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
