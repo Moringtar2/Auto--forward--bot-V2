@@ -10,7 +10,7 @@ This Bot forward all files to One Public channel to Your Personal channel
 
 More details /help
 
-© @Mo_Tech_YT</b>"""
+© @AD_BOTZ</b>"""
   CAPTION = "`{}`\n\n" + str(Config.CAPTION)
   HELP_TXT = """<b>Follow These Steps!!</b>
 
@@ -35,7 +35,7 @@ More details /help
 
 <b>🤖Name :</b> <code>Auto Forward Bot</code>
 
-<b>👨‍🎓Credit :</b> <code>Dark Angel</code>
+<b>👨‍🎓Credit :</b> <code>Lucifer Moringstar</code>
 
 <b>🎙️Language :</b> <code>Python3</code>
 
